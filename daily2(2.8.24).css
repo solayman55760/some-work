@@ -1,0 +1,70 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(244, 246, 250);
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+}
+
+.blog{
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    background-color: yellow;
+    font-size: 20px;
+    height: 50px;
+    font-weight: bold;
+    width: 200px;
+    border: 1px solid white;
+    color: red;
+    float: left;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+
+
+}
+
+.navbar ul li a{
+    color: rgb(9, 221, 90)
+    ;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar ul li:hover{
+    background-color: brown;
+    transition: all ease-in 2s ;
+
+}
+
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover>ul{
+    display: block;
+}
+
